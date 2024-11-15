@@ -76,12 +76,12 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
         /> 
         <CardContent sx={{
           width: '95%',
-          maxWidth: '100%',
+          maxWidth: '90%',
         }}>
           <Grid item xs={12}>
             <FormControl fullWidth>
               <Input id="tarefa_titulo" aria-describedby="tarefa_titulo_helper_text" value={tituloTarefa} onChange={e => { setTituloTarefa(e.target.value) }} />
-              <FormHelperText id="tarefa_titulo_helper_text">Título da Tarefa.</FormHelperText>
+              <FormHelperText id="tarefa_titulo_helper_text">Título Modificado da Tarefa.</FormHelperText>
             </FormControl>
           </Grid>
           <Grid item xs={12}>  

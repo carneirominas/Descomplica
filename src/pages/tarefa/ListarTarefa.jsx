@@ -95,7 +95,7 @@ const ListarTarefa = () => {
                 <TableRow>
                     <TableCell>#</TableCell>
                     <TableCell>Título</TableCell>
-                    <TableCell align="right">Descrição</TableCell>
+                    <TableCell align="right">Descrição Modificada</TableCell>
                     <TableCell align="right">Data de Início</TableCell>
                     <TableCell align="right">Data de Finalização</TableCell>
                     <TableCell align="right">Status</TableCell>
